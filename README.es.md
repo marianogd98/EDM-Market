@@ -18,15 +18,9 @@
   <a href="https://github.com/PanJiaChen/vue-element-admin/releases">
     <img src="https://img.shields.io/github/release/PanJiaChen/vue-element-admin.svg" alt="Liberación Github">
   </a>
-  <a href="https://gitter.im/vue-element-admin/discuss">
-    <img src="https://badges.gitter.im/Join%20Chat.svg" alt="Gitter">
-  </a>
-  <a href="https://panjiachen.github.io/vue-element-admin-site/donate">
-    <img src="https://img.shields.io/badge/%24-donate-ff69b4.svg" alt="Donación">
-  </a>
 </p>
 
-Español | [English](./README.md) | [简体中文](./README.zh-CN.md) | [日本語](./README.ja.md)
+Español | [English](./README.md)
 
 ## Introducción
 
@@ -67,18 +61,6 @@ Entendiendo y aprendiendo esto pudiera ayudarle con su proyecto.
 <p align="center">
   <img width="900" src="https://wpimg.wallstcn.com/a5894c1b-f6af-456e-82df-1151da0839bf.png">
 </p>
-
-## Patrocinantes
-
-Sea un patrocinante y coloque su logo en nuestro LEEME en GitHub con un enlace directo a su sitio web. [[Se un Patrocinante]](https://www.patreon.com/panjiachen)
-
-### Akveo
-<a href="https://store.akveo.com/products/vue-java-admin-dashboard-spring?utm_campaign=akveo_store-Vue-Vue_demo%2Fgithub&utm_source=vue_admin&utm_medium=referral&utm_content=github_banner"><img width="500px" src="https://raw.githubusercontent.com/PanJiaChen/vue-element-admin-site/master/docs/.vuepress/public/images/vue-java-banner.png" /></a><p>Get Java backend for Vue admin with 20% discount for 39$ use coupon code SWB0RAZPZR1M
-</p>
-
-### Flatlogic
-
-<a href="https://flatlogic.com/admin-dashboards?from=vue-element-admin"><img width="150px" src="https://wpimg.wallstcn.com/9c0b719b-5551-4c1e-b776-63994632d94a.png" /></a><p>Admin Dashboard Templates made with Vue, React and Angular.</p>
 
 ## Características
 

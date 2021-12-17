@@ -44,6 +44,12 @@
         <el-button v-waves class="filter-item" type="primary" icon="el-icon-search" @click="handleFilter">
           Buscar
         </el-button>
+        <el-checkbox v-model="showState" class="filter-item" style="margin-left:15px;" @change="tableKey=tableKey+1">
+          Estado
+        </el-checkbox>
+        <el-checkbox v-model="showCity" class="filter-item" style="margin-left:15px;" @change="tableKey=tableKey+1">
+          Ciudad
+        </el-checkbox>
       </div>
     </el-card>
 
@@ -69,12 +75,12 @@
           </el-tooltip>
         </template>
       </el-table-column>
-      <el-table-column label="Estado" min-width="90px">
+      <el-table-column v-if="showState" label="Estado" min-width="90px">
         <template slot-scope="{row}">
           <span>{{ row.state }} </span>
         </template>
       </el-table-column>
-      <el-table-column label="Ciudad" min-width="100px" align="center">
+      <el-table-column v-if="showCity" label="Ciudad" min-width="100px" align="center">
         <template slot-scope="{row}">
           <span>{{ row.city }}</span>
         </template>
@@ -314,6 +320,8 @@ export default {
       totalC: 0,
       tableKey: 0,
       slideValue: 50,
+      showState: true,
+      showCity: true,
       sortOptions: [{ label: 'ID Primero', key: '+id' }, { label: 'ID Ultimo', key: '-id' }],
       radio: 3,
       Products: null,
